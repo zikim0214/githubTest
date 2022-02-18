@@ -28,6 +28,7 @@
 
 ---
 
+- git push origin -u <new_name_branch> (Remote Branch(원격 브랜치) 이름 변경 방법)
 - git remote -v (현재 연결되어 있는 원격 레파지토리를 확인)
 - git remote add <name> <url> (원격저장소와 연결하고 싶으실 경우엔)
 
