@@ -38,29 +38,41 @@
 
                                               
 # 🟠깃 기본사용
----
 #### 1. 디렉토리 들어가기
+---
 ###### git bash
 - $ cd "C:\Users\gittest\Desktop\git_practice"  <- " "를 붙여줘야한다.                                                 
                                                  
                                                  
 #### 2. 사용자등록
+---
 - git config --global user.email "[이메일주소]"
 - git config --global user.name "[이메일주소]"                                                 
 #### 3. 저장소생성
+---
 - git init
   + master branch 생성, git bash 폴더명에 (master)추가됌, .git이라는 숨김폴더 추가                                       
 #### 4. 스테이지에 올리기
+---
 - git add .(전체폴더 >> 특정폴더명 지정가능)
 - git status
 #### 5. 로컬에 세이브
+---
 - git commit -m "커밋메세지"
 - git log 
   + commit된 리스트를 보여줌
 #### 6. 원격저장소 연동
+---
 - git remote add origin https://github.com/myungyi0314/githubTest.git
 - git remote -v
 #### 7. 원격저장소에 올리기
-- git push origin master                                                   
-                                                 🟠🟡🟢🔵🟣🟤⚫⚪                                                 
+---
+- git push origin master 
+
+# 🟢깃 fork와 clone 비교
+#### fork
+---
+#### clone
+---
+                                                 🔴🟠🟡🟢🔵🟣🟤⚫⚪                                                 
                                                  
