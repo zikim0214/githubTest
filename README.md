@@ -1,4 +1,4 @@
-# 깃 허브 명령어 정리
+# 깃 명령어 정리
 
 ### Branch Remote Local 기본 과정
 
