@@ -31,7 +31,10 @@
 - git clone [저장소 주소] ( 저장소 복제 )
 - git fetch (remote를 local로 저장, 직접 비교대조 후에 수동 merge)
 - git pull (remote를 local로 저장, 자동 merge)
-
+#### merge
+---
+- git merge <다른 branch이름>   현재 branch에 다른 branch의 수정사항 합치기
+- git diff <branch이름>    변경 내용을 합차기전에 바뀐 내용을 비교할 수 있다. 
                                               
 # 🟠깃 기본사용
 #### 1. 디렉토리 들어가기
