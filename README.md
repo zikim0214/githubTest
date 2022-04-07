@@ -79,3 +79,14 @@
 - .md라는 확장자를 사용
 - github의 wiki나 readme
 - notion, slack                                                   
+
+#### 마크다운 사용법
+```
+# Hello, github
+## Hello, github
+### Hello, github
+#### Hello, github
+##### Hello, github
+###### Hello, github
+```
+  
