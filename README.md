@@ -35,3 +35,11 @@
 - git clone [저장소 주소] ( 저장소 복제 )
 - git fetch (remote를 local로 저장, 직접 비교대조 후에 수동 merge)
 - git pull (remote를 local로 저장, 자동 merge)
+
+  
+# 깃 Bash 명령어 정리
+
+###디렉토리 들어가기
+
+---
+$ cd "C:\Users\gittest\Desktop\git_practice"  <- " "를 붙여줘야한다.
