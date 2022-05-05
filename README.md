@@ -31,6 +31,16 @@
 - git clone [저장소 주소] ( 저장소 복제 )
 - git fetch (remote를 local로 저장, 직접 비교대조 후에 수동 merge)
 - git pull (remote를 local로 저장, 자동 merge)
+  
+#### 로컬이나 원격 브랜치 삭제하기
+---
+###### 로컬브렌치 제거
+- git branch -d <branch_name>
+###### 원격브렌치 제거
+- git push origin --delete feature/TEST-860
+- git branch -d feature/TEST-860 (로컬제거)
+  git push origin feature/TEST-860
+  
 #### merge
 ---
 - git merge <다른 branch이름>   현재 branch에 다른 branch의 수정사항 합치기
