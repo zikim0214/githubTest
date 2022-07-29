@@ -17,7 +17,7 @@
 # ✔FORK
 - 남이 만든 Repository를 그대로 복사해서 내 계정으로 가져오는 것
 - 가져오면서 Repository명 변경 가능
-
+- 
 
 ![1 Git Fork - Fork a Repo](https://user-images.githubusercontent.com/52149400/181720220-7c813096-99f2-4cb6-97cb-721c8a52d127.png)
 
@@ -31,4 +31,8 @@
 ---
 ### [🔼 위로](#목차)
 
-출처-https://www.toolsqa.com/
+이미지 출처-https://www.toolsqa.com/
+
+https://www.toolsqa.com/git/git-fork/
+
+https://velog.io/@parkirae/git-fork-%ED%95%98%EA%B1%B0%EB%82%98-clone-%ED%95%98%EA%B1%B0%EB%82%98
