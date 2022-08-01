@@ -30,13 +30,31 @@ GitHub는 전 세계 모든 개발자에게 플랫폼을 제공하여 서로의
 아무도 원본 저장소에 대한 동의 없이 수백 가지 변경 사항을 보고 싶어하지 않을 것이 분명합니다. 
 따라서 저장소의 복사본 또는 분기된 저장소의 개념이 등장
 
-1. Upstream 레포의 코드/소프트웨어 개선
-  1.  Repositroy를 분기하고 버그, 실행시간 개선, 새로운 기능을 추가하여 해당 변경 사항을 repository소유자에게 보낼 수 있다.
+1. Upstream Repository의 코드 or 소프트웨어 개선
+   *  Repositroy를 분기하고 버그, 실행시간 개선, 새로운 기능을 추가하여 해당 변경 사항을 repository소유자에게 보낼 수 있다.
 2. 내 프로젝트에서 코드 재사용 
-  2. 다른 사람의 저장소를 분기해서 내 프로젝트에서 사용 할 수도 있다.
+   * 다른 사람의 저장소를 분기해서 내 프로젝트에서 사용 할 수도 있다.
+## FROK 순서
+1. repository fork
+2. code 변경
+   - git clone
+4. 원본 repo로 변경사항 보내기 
+   - pull request 사용자 변경 사항을 수락하기 위해 업스트림 저장소 소유자에게 요청을 함
+
+
+> pull request 란? <br>
+> 내가 수정한 코드가 있으니 내 branch를 가져가 검토 후 병합해주세요 라는 뜻 <br>
+> 코드 충돌을 최소화할 수 있고 push 권한이 없는 <br>
+> 오픈 소스 프로젝트에 기여할 때 많이 사용 
+
 ![2 1_Pull-Request](https://user-images.githubusercontent.com/52149400/181720241-529bc623-d7c9-42fe-9c9d-882e19848576.png)
 
 # ✔CLONE VS FORK
+- Fork는 GitHub 계정에서 수행되고 복제는 Git을 사용하여 수행
+- 리포지토리를 분기할 때 원본 리포지토리(업스트림 리포지토리)의 복사본을 생성하지만 리포지토리는 GitHub 계정에 남아 있습니다. 
+- 저장소를 복제하면 저장소가 Git의 도움으로 로컬 시스템에 복사
+
+![1 Difference-between-Git-Clone-and-Git-Fork](https://user-images.githubusercontent.com/52149400/182065615-4834217e-de45-4e22-a1d9-3a8f43f18cca.png)
 
 
 
@@ -55,3 +73,7 @@ GitHub는 전 세계 모든 개발자에게 플랫폼을 제공하여 서로의
 https://www.toolsqa.com/git/git-fork/
 
 https://velog.io/@parkirae/git-fork-%ED%95%98%EA%B1%B0%EB%82%98-clone-%ED%95%98%EA%B1%B0%EB%82%98
+
+https://dev-youngjun.tistory.com/47
+
+https://velog.io/@zansol/Pull-Request-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
