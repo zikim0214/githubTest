@@ -34,7 +34,7 @@ GitHub는 전 세계 모든 개발자에게 플랫폼을 제공하여 서로의
    *  Repositroy를 분기하고 버그, 실행시간 개선, 새로운 기능을 추가하여 해당 변경 사항을 repository소유자에게 보낼 수 있다.
 2. 내 프로젝트에서 코드 재사용 
    * 다른 사람의 저장소를 분기해서 내 프로젝트에서 사용 할 수도 있다.
-## FROK 순서
+## FORK 순서
 1. repository fork
 2. code 변경
    - git clone
@@ -51,12 +51,16 @@ GitHub는 전 세계 모든 개발자에게 플랫폼을 제공하여 서로의
 
 # ✔CLONE VS FORK
 - Fork는 GitHub 계정에서 수행되고 복제는 Git을 사용하여 수행
-- 리포지토리를 분기할 때 원본 리포지토리(업스트림 리포지토리)의 복사본을 생성하지만 리포지토리는 GitHub 계정에 남아 있습니다. 
+- 리포지토리를 분기할 때 원본 리포지토리(업스트림 리포지토리)의 복사본을 생성하지만 리포지토리는 GitHub 계정에 남아 있다. 
 - 저장소를 복제하면 저장소가 Git의 도움으로 로컬 시스템에 복사
 
 ![1 Difference-between-Git-Clone-and-Git-Fork](https://user-images.githubusercontent.com/52149400/182065615-4834217e-de45-4e22-a1d9-3a8f43f18cca.png)
 
+- 포크된 리포지토리에 대한 변경 사항은 pull 요청 을 통해 원래 리포지토리와 병합
+- 반면에 로컬 시스템(복제된 저장소)에서 수행된 변경 사항은 업스트림 저장소로 직접 푸시될 수 있습니다. 
+- 이 경우 복제된 저장소의 변경 사항이 먼저 분기된 저장소로 푸시된 다음 풀 요청이 생성됩니다. 
 
+![2 Difference-between-Git-Cloning-and-Git-Forking](https://user-images.githubusercontent.com/52149400/182066510-21f4752f-681f-4854-85de-126a3dc04dc8.png)
 
 # ✔Origin vs Upstream.
 - fork의 의미에서 이해해야함
