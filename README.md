@@ -1,4 +1,4 @@
-# 🔴깃 명령어 정리
+# ✔깃 명령어 정리
 
 #### Branch Remote Local 기본 과정
 
@@ -46,7 +46,7 @@
 - git merge <다른 branch이름>   현재 branch에 다른 branch의 수정사항 합치기
 - git diff <branch이름>    변경 내용을 합차기전에 바뀐 내용을 비교할 수 있다. 
                                               
-# 🟠깃 기본사용
+# ✔깃 기본사용
 #### 1. 디렉토리 들어가기
 
 ###### git bash
@@ -78,12 +78,7 @@
 
 - git push origin master 
 
-# 🟢깃 fork와 clone 비교
-#### fork
----
-#### clone
----
-🔴🟠🟡🟢🔵🟣🟤⚫⚪                                                 
+                                         
 # 마크업 언어 markup
 - 태그 등을 이용하여 문서나 데이터의 구조를 명시하는 언어
 - html
