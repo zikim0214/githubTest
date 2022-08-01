@@ -15,9 +15,12 @@
 
 
 # ✔FORK
-- 남이 만든 Repository를 그대로 복사해서 내 계정으로 가져오는 것
+- 남이 만든 Repository를 그대로 복사해서 내 GitHub 계정으로 가져오는 것
 - 가져오면서 Repository명 변경 가능
-- 
+- 컴퓨터의 한 드라이브에서 다른 드라이브로 폴더를 복사하는 것과 유사
+- 사용자는 이 리포지토리를 자신의 목적을 위해 자유롭게 사용하거나 코드 변경을 실험할 수 있습니다. git forking을 통해 사용자는 다른 사람의 코드에 대한 수정 사항을 직접 개발
+- 원래 저장소( 업스트림 저장소라고도 함 ) 코드 에는 영향을 미치지 않습니다 .
+- 저장소와 코드는 사용자의 GitHub 계정으로 제한 사용자의 로컬이나 프로세스에서 git의 참여에는 영향이 없다.
 
 ![1 Git Fork - Fork a Repo](https://user-images.githubusercontent.com/52149400/181720220-7c813096-99f2-4cb6-97cb-721c8a52d127.png)
 
@@ -27,6 +30,12 @@
 
 
 
+# ✔Origin vs Upstream
+- fork의 의미에서 이해해야함
+- 내가 다른 사람의 Repository를 fork 해온다면 upstream은 그 사람의 Repository(오리지널 Repository)를 의미한다.
+- origin은 나의 fork이다. Repository가 clone될 때 default remote는 origin이라고 불린다. 즉, 내 fork를 myungyirepo라고 할 때, clone하면 내 repository가 origin이 된다. 
+- 내 래포가 myRepo이고 다른 레포가 otherRepo라 하자. 내가 otherRepo로부터 pull from 해오고(당겨오고) push to한다면 내 myRepo가 downstream, otherRepo가 upstream으로 정의
+- 하나의 Upstream 여러 개의 Downstream
 
 ---
 ### [🔼 위로](#목차)
