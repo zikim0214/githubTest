@@ -24,17 +24,27 @@
 
 ![1 Git Fork - Fork a Repo](https://user-images.githubusercontent.com/52149400/181720220-7c813096-99f2-4cb6-97cb-721c8a52d127.png)
 
+## FORK를 하는 이유?
+GitHub는 전 세계 모든 개발자에게 플랫폼을 제공하여 서로의 
+프로젝트에 기여하고 더 좋고 더 안정적인 소프트웨어를 만들 수 있도록 개발되었습니다. 
+아무도 원본 저장소에 대한 동의 없이 수백 가지 변경 사항을 보고 싶어하지 않을 것이 분명합니다. 
+따라서 저장소의 복사본 또는 분기된 저장소의 개념이 등장
+
+1. Upstream 레포의 코드/소프트웨어 개선
+  1.  Repositroy를 분기하고 버그, 실행시간 개선, 새로운 기능을 추가하여 해당 변경 사항을 repository소유자에게 보낼 수 있다.
+2. 내 프로젝트에서 코드 재사용 
+  2. 다른 사람의 저장소를 분기해서 내 프로젝트에서 사용 할 수도 있다.
 ![2 1_Pull-Request](https://user-images.githubusercontent.com/52149400/181720241-529bc623-d7c9-42fe-9c9d-882e19848576.png)
 
 # ✔CLONE VS FORK
 
 
 
-# ✔Origin vs Upstream
+# ✔Origin vs Upstream.
 - fork의 의미에서 이해해야함
 - 내가 다른 사람의 Repository를 fork 해온다면 upstream은 그 사람의 Repository(오리지널 Repository)를 의미한다.
 - origin은 나의 fork이다. Repository가 clone될 때 default remote는 origin이라고 불린다. 즉, 내 fork를 myungyirepo라고 할 때, clone하면 내 repository가 origin이 된다. 
-- 내 래포가 myRepo이고 다른 레포가 otherRepo라 하자. 내가 otherRepo로부터 pull from 해오고(당겨오고) push to한다면 내 myRepo가 downstream, otherRepo가 upstream으로 정의
+- 내 래포가 myRepo이고 다른 레포가 otherRepo라고 한다면, otherRepo로부터 pull from 해오고(당겨오고) push to한다면 내 myRepo가 downstream, otherRepo가 upstream으로 정의
 - 하나의 Upstream 여러 개의 Downstream
 
 ---
