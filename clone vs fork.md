@@ -1,7 +1,7 @@
 # 목차
-- [1️⃣ clone](#clone)
-- [2️⃣ fork](#fork)
-- [3️⃣ clone vs fork](#clone-vs-fork)
+1. [clone](#clone)
+2. [fork](#fork)
+3. [clone vs fork](#clone-vs-fork)
 
 # ✔CLONE
 - git clone https://github.com/myungyi0314/githubTest.git
