@@ -6,3 +6,6 @@ fetch all remotes
 
 checkout
 - 브랜치 전환하기
+
+
+![image](https://user-images.githubusercontent.com/52149400/182315273-4a6cf4d8-6f47-43d0-8c65-72823f946d28.png)
