@@ -17,12 +17,12 @@
 - git branch -r (원격 브랜치 목록 조회)
 - git branch -a (모든 브랜치 목록 조회)
 - git branch {브랜치명} ( local 브랜치 생성)
+- git checkout {브랜치명} (브랜치 변경)
+- git branch -d {브랜치명} ( 브랜치 삭제 )
 - git checkout -b  [생성할 branch 이름] [원격 저장소의 branch 이름] 
   - remote branch 이름을 변경하여 가져오기
 - git checkout -t (원격 저장소의 branch 이름)
   - 로컬의 동일한 이름의 branch를 생성하면서 해당 remote branch로 checkout
-- git checkout {브랜치명} (브랜치 변경)
-- git branch -d {브랜치명} ( 브랜치 삭제 )
 
 #### 원격 저장소( remote repository )
 
