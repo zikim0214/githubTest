@@ -23,6 +23,7 @@
   - remote branch 이름을 변경하여 가져오기
 - git checkout -t (원격 저장소의 branch 이름)
   - 로컬의 동일한 이름의 branch를 생성하면서 해당 remote branch로 checkout
+- git checkout  -B master <이동 목적지 commit hash>
 
 #### 원격 저장소( remote repository )
 
